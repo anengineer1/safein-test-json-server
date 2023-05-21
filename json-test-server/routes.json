@@ -1,0 +1,7 @@
+{
+    "/cities/id/:id": "/cities/:id",
+    "/cities/name/:name": "/cities?name=:name",
+    "/cities/country/:countryCode": "/cities?country.countryCode=:countryCode",
+    "/countries/countrycode/:countryCode": "/countries?countryCode=:countryCode",
+    "/countries/id/:id": "/countries/:id"
+}

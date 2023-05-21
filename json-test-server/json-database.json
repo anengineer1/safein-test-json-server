@@ -1,0 +1,176 @@
+{
+	"countries": [
+		{
+			"id": 1,
+			"countryCode": "UA",
+			"countryName": "Ukraine",
+			"latitude": 49.0,
+			"longitude": 32.0,
+			"situation": "War"
+		},
+		{
+			"id": 2,
+			"countryCode": "SO",
+			"countryName": "Somalia",
+			"latitude": 10.0,
+			"longitude": 49.0,
+			"situation": "War"
+		},
+		{
+			"id": 3,
+			"countryCode": "ID",
+			"countryName": "Indonesia",
+			"latitude": -5.0,
+			"longitude": 120.0,
+			"situation": "Natural Disaster"
+		}
+	],
+	"cities": [
+		{
+			"id": 1,
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"name": "Kirtze",
+			"country": {
+				"id": 1,
+				"countryCode": "UA",
+				"countryName": "Ukraine",
+				"latitude": 49.0,
+				"longitude": 32.0,
+				"situation": "War"
+			}
+		},
+		{
+			"id": 2,
+			"latitude": 37.7749,
+			"longitude": -12.4194,
+			"name": "Uowe",
+			"country": {
+				"id": 2,
+				"countryCode": "SO",
+				"countryName": "Somalia",
+				"latitude": 10.0,
+				"longitude": 49.0,
+				"situation": "War"
+			}
+		},
+		{
+			"id": 3,
+			"latitude": 38.7749,
+			"longitude": -122.4194,
+			"name": "Roj",
+			"country": {
+				"id": 3,
+				"countryCode": "ID",
+				"countryName": "Indonesia",
+				"latitude": -5.0,
+				"longitude": 120.0,
+				"situation": "Natural Disaster"
+			}
+		}
+	],
+	"customers": [
+		{
+			"id": 1,
+			"name": "Maks Levin",
+			"email": "mklevis@gmail.com",
+			"pressMedia": "LB.ua",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263383944",
+			"country": {
+				"id": 1,
+				"countryCode": "UA",
+				"countryName": "Ukraine",
+				"latitude": 49.0,
+				"longitude": 32.0,
+				"situation": "War"
+			},
+			"phonenumber": "+341725923"
+		},
+		{
+			"id": 2,
+			"name": "Robert Capa",
+			"email": "rcopa@gmail.com",
+			"pressMedia": "independiente",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263744744",
+			"country": {
+				"id": 2,
+				"countryCode": "SO",
+				"countryName": "Somalia",
+				"latitude": 10.0,
+				"longitude": 49.0,
+				"situation": "War"
+			},
+			"phonenumber": "+34183564784"
+		},
+		{
+			"id": 3,
+			"name": "Frédéric Leclerc-Imhoff",
+			"email": "freddy@gmail.com",
+			"pressMedia": "BFMTV",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263374744",
+			"country": {
+				"id": 3,
+				"countryCode": "ID",
+				"countryName": "Indonesia",
+				"latitude": -5.0,
+				"longitude": 120.0,
+				"situation": "Natural Disaster"
+			},
+			"phonenumber": "+341445623"
+		},
+		{
+			"id": 4,
+			"name": "Maks Levin",
+			"email": "mklevis@gmail.com",
+			"pressMedia": "LB.ua",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263383944",
+			"country": {
+				"id": 1,
+				"countryCode": "UA",
+				"countryName": "Ukraine",
+				"latitude": 49.0,
+				"longitude": 32.0,
+				"situation": "War"
+			},
+			"phonenumber": "+341725923"
+		},
+		{
+			"id": 5,
+			"name": "Robert Capa",
+			"email": "rcopa@gmail.com",
+			"pressMedia": "independiente",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263744744",
+			"country": {
+				"id": 2,
+				"countryCode": "SO",
+				"countryName": "Somalia",
+				"latitude": 10.0,
+				"longitude": 49.0,
+				"situation": "War"
+			},
+			"phonenumber": "+34183564784"
+		},
+		{
+			"id": 6,
+			"name": "Frédéric Leclerc-Imhoff",
+			"email": "freddy@gmail.com",
+			"pressMedia": "BFMTV",
+			"docIdentifier": "DNI",
+			"numIdentifier": "5263374744",
+			"country": {
+				"id": 3,
+				"countryCode": "ID",
+				"countryName": "Indonesia",
+				"latitude": -5.0,
+				"longitude": 120.0,
+				"situation": "Natural Disaster"
+			},
+			"phonenumber": "+341445623"
+		}
+	]
+}
