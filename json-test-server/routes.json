@@ -6,5 +6,8 @@
     "/countries/id/:id": "/countries/:id",
     "/customers/media/:pressMedia": "/customers?pressMedia=:pressMedia",
     "/customers/email/:email": "/customers?email=:email",
-    "/customers/doc/:docIdentifier/:numIdentifier": "/customers?docIdentifier=:docIdentifier&numIdentifier=:numIdentifier"
+    "/customers/doc/:docIdentifier/:numIdentifier": "/customers?docIdentifier=:docIdentifier&numIdentifier=:numIdentifier",
+    "/hotels/cities/:id" : "/hotels?city.id=:id",
+    "/hotels/energy_suficient/:energySuficient" : "/hotels?energySuficient=:energySuficient",
+    "/hotels/security_level/:seclvl" : "/hotels?securityLevel=:seclvl"
 }
