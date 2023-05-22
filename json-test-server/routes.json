@@ -3,5 +3,8 @@
     "/cities/name/:name": "/cities?name=:name",
     "/cities/country/:countryCode": "/cities?country.countryCode=:countryCode",
     "/countries/countrycode/:countryCode": "/countries?countryCode=:countryCode",
-    "/countries/id/:id": "/countries/:id"
+    "/countries/id/:id": "/countries/:id",
+    "/customers/media/:pressMedia": "/customers?pressMedia=:pressMedia",
+    "/customers/email/:email": "/customers?email=:email",
+    "/customers/doc/:docIdentifier/:numIdentifier": "/customers?docIdentifier=:docIdentifier&numIdentifier=:numIdentifier"
 }
