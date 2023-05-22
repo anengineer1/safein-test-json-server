@@ -172,5 +172,156 @@
 			},
 			"phonenumber": "+341445623"
 		}
+	],
+	"hotels": [
+		{
+			"id": 1,
+			"name": "Hotel Palace",
+			"phonenumber": "+34555555555",
+			"email": "reboca@gmail.com",
+			"address": "Arbeitzer street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": {
+				"id": 1,
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"name": "Kirtze",
+				"country": {
+					"id": 1,
+					"countryCode": "UA",
+					"countryName": "Ukraine",
+					"latitude": 49.0,
+					"longitude": 32.0,
+					"situation": "War"
+				}
+			}
+		},
+		{
+			"id": 2,
+			"name": "Hotel Polo",
+			"phonenumber": "+55555",
+			"email": "rebo4ca@gmail.com",
+			"address": "ARARAR street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": {
+				"id": 2,
+				"latitude": 37.7749,
+				"longitude": -12.4194,
+				"name": "Uowe",
+				"country": {
+					"id": 2,
+					"countryCode": "SO",
+					"countryName": "Somalia",
+					"latitude": 10.0,
+					"longitude": 49.0,
+					"situation": "War"
+				}
+			}
+		},
+		{
+			"id": 3,
+			"name": "Hotel Me Da Lo Mismo",
+			"phonenumber": "+34444444444",
+			"email": "reb4@gmail.com",
+			"address": "Azerbaijan street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": null
+		},
+		{
+			"id": 4,
+			"name": "Hotel Palace",
+			"phonenumber": "+34555555555",
+			"email": "reboca@gmail.com",
+			"address": "Arbeitzer street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": {
+				"id": 1,
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"name": "Kirtze",
+				"country": {
+					"id": 1,
+					"countryCode": "UA",
+					"countryName": "Ukraine",
+					"latitude": 49.0,
+					"longitude": 32.0,
+					"situation": "War"
+				}
+			}
+		},
+		{
+			"id": 5,
+			"name": "Hotel Palace",
+			"phonenumber": "+34555555555",
+			"email": "reb4@gmail.com",
+			"address": "Azerbaijan street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": null
+		},
+		{
+			"id": 6,
+			"name": "Hotel Me Da Lo Mismo",
+			"phonenumber": "+34444444444",
+			"email": "rrrrrrrrr@gmail.com",
+			"address": "Shishao 5",
+			"latitude": 37.7749,
+			"longitude": -100.4194,
+			"securityLevel": "Private security",
+			"energySuficient": true,
+			"city": {
+				"id": 3,
+				"latitude": 38.7749,
+				"longitude": -122.4194,
+				"name": "Roj",
+				"country": {
+					"id": 3,
+					"countryCode": "ID",
+					"countryName": "Indonesia",
+					"latitude": -5.0,
+					"longitude": 120.0,
+					"situation": "Natural Disaster"
+				}
+			}
+		},
+		{
+			"id": 7,
+			"name": "Hotel Palace",
+			"phonenumber": "+34555555555",
+			"email": "reboca@gmail.com",
+			"address": "Arbeitzer street 5",
+			"latitude": 37.7749,
+			"longitude": -122.4194,
+			"securityLevel": "Diplomatic coverage and private security",
+			"energySuficient": true,
+			"city": {
+				"id": 1,
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"name": "Kirtze",
+				"country": {
+					"id": 1,
+					"countryCode": "UA",
+					"countryName": "Ukraine",
+					"latitude": 49.0,
+					"longitude": 32.0,
+					"situation": "War"
+				}
+			}
+		}
 	]
 }
