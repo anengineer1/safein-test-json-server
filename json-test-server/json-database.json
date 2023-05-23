@@ -323,5 +323,143 @@
 				}
 			}
 		}
+	],
+	"rooms": [
+		{
+			"id": 1,
+			"numPeople": 1,
+			"code": "103",
+			"pricePerNight": 59.99,
+			"internetType": "Fiber",
+			"hasTerrace": true,
+			"hotel": {
+				"id": 1,
+				"name": "Hotel Palace",
+				"phonenumber": "+34555555555",
+				"email": "reboca@gmail.com",
+				"address": "Arbeitzer street 5",
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"securityLevel": "Diplomatic coverage and private security",
+				"energySuficient": true,
+				"city": {
+					"id": 1,
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"name": "Kirtze",
+					"country": {
+						"id": 1,
+						"countryCode": "UA",
+						"countryName": "Ukraine",
+						"latitude": 49.0,
+						"longitude": 32.0,
+						"situation": "War"
+					}
+				}
+			},
+			"smoker": false
+		},
+		{
+			"id": 2,
+			"numPeople": 1,
+			"code": "204",
+			"pricePerNight": 59.99,
+			"internetType": "Fiber",
+			"hasTerrace": true,
+			"hotel": {
+				"id": 1,
+				"name": "Hotel Palace",
+				"phonenumber": "+34555555555",
+				"email": "reboca@gmail.com",
+				"address": "Arbeitzer street 5",
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"securityLevel": "Diplomatic coverage and private security",
+				"energySuficient": true,
+				"city": {
+					"id": 1,
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"name": "Kirtze",
+					"country": {
+						"id": 1,
+						"countryCode": "UA",
+						"countryName": "Ukraine",
+						"latitude": 49.0,
+						"longitude": 32.0,
+						"situation": "War"
+					}
+				}
+			},
+			"smoker": false
+		},
+		{
+			"id": 3,
+			"numPeople": 2,
+			"code": "142",
+			"pricePerNight": 999.99,
+			"internetType": "Fiber",
+			"hasTerrace": true,
+			"hotel": {
+				"id": 1,
+				"name": "Hotel Palace",
+				"phonenumber": "+34555555555",
+				"email": "reboca@gmail.com",
+				"address": "Arbeitzer street 5",
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"securityLevel": "Diplomatic coverage and private security",
+				"energySuficient": true,
+				"city": {
+					"id": 1,
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"name": "Kirtze",
+					"country": {
+						"id": 1,
+						"countryCode": "UA",
+						"countryName": "Ukraine",
+						"latitude": 49.0,
+						"longitude": 32.0,
+						"situation": "War"
+					}
+				}
+			},
+			"smoker": true
+		},
+		{
+			"id": 4,
+			"numPeople": 2,
+			"code": "113",
+			"pricePerNight": 59.99,
+			"internetType": "Fiber",
+			"hasTerrace": true,
+			"hotel": {
+				"id": 1,
+				"name": "Hotel Palace",
+				"phonenumber": "+34555555555",
+				"email": "reboca@gmail.com",
+				"address": "Arbeitzer street 5",
+				"latitude": 37.7749,
+				"longitude": -122.4194,
+				"securityLevel": "Diplomatic coverage and private security",
+				"energySuficient": true,
+				"city": {
+					"id": 1,
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"name": "Kirtze",
+					"country": {
+						"id": 1,
+						"countryCode": "UA",
+						"countryName": "Ukraine",
+						"latitude": 49.0,
+						"longitude": 32.0,
+						"situation": "War"
+					}
+				}
+			},
+			"smoker": true
+		}
 	]
 }
