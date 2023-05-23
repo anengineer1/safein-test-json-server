@@ -461,5 +461,135 @@
 			},
 			"smoker": true
 		}
+	],
+	"booking": [
+		{
+			"id": 1,
+			"amount": 250.0,
+			"numPeople": 1,
+			"customers": {
+				"id": 1,
+				"name": "Maks Levin",
+				"email": "mklevis@gmail.com",
+				"pressMedia": "LB.ua",
+				"docIdentifier": "DNI",
+				"numIdentifier": "5263383944",
+				"country": {
+					"id": 1,
+					"countryCode": "UA",
+					"countryName": "Ukraine",
+					"latitude": 49.0,
+					"longitude": 32.0,
+					"situation": "War"
+				},
+				"phonenumber": "+341725923"
+			},
+			"suser": {
+				"id": 1,
+				"username": "admin",
+				"password": "$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.",
+				"email": "nomail@gmail.com",
+				"nomApels": "admin",
+				"role": "admin"
+			},
+			"pendingPay": false,
+			"payed": true
+		},
+		{
+			"id": 2,
+			"amount": 351.12,
+			"numPeople": 1,
+			"customers": {
+				"id": 2,
+				"name": "Robert Capa",
+				"email": "rcopa@gmail.com",
+				"pressMedia": "independiente",
+				"docIdentifier": "DNI",
+				"numIdentifier": "5263744745",
+				"country": {
+					"id": 2,
+					"countryCode": "SO",
+					"countryName": "Somalia",
+					"latitude": 10.0,
+					"longitude": 49.0,
+					"situation": "War"
+				},
+				"phonenumber": "+34183564784"
+			},
+			"suser": {
+				"id": 2,
+				"username": "marraya",
+				"password": "$2a$10$6pBWgEtPi/kMtZ7l4ik6SudQGHyf1.oi0q/5VvKzpgZ32yZ88Iw9q",
+				"email": "mrraynet@gmail.com",
+				"nomApels": "Maria Raices",
+				"role": "editor"
+			},
+			"pendingPay": true,
+			"payed": false
+		},
+		{
+			"id": 3,
+			"amount": 454.9,
+			"numPeople": 2,
+			"customers": {
+				"id": 3,
+				"name": "Frédéric Leclerc-Imhoff",
+				"email": "freddy@gmail.com",
+				"pressMedia": "BFMTV",
+				"docIdentifier": "DNI",
+				"numIdentifier": "5263374744",
+				"country": {
+					"id": 3,
+					"countryCode": "ID",
+					"countryName": "Indonesia",
+					"latitude": -5.0,
+					"longitude": 120.0,
+					"situation": "Natural Disaster"
+				},
+				"phonenumber": "+341445623"
+			},
+			"suser": {
+				"id": 3,
+				"username": "AntAn",
+				"password": "$2a$10$xwVYF5bGk7V2b.HSmy/haOdN9QGQvjLIWeYrJqDR5v8E9urCD4zUW",
+				"email": "antmannn@gmail.com",
+				"nomApels": "Antonio Andres",
+				"role": "editor"
+			},
+			"pendingPay": false,
+			"payed": true
+		},
+		{
+			"id": 4,
+			"amount": 42.365,
+			"numPeople": 1,
+			"customers": {
+				"id": 1,
+				"name": "Maks Levin",
+				"email": "mklevis@gmail.com",
+				"pressMedia": "LB.ua",
+				"docIdentifier": "DNI",
+				"numIdentifier": "5263383944",
+				"country": {
+					"id": 1,
+					"countryCode": "UA",
+					"countryName": "Ukraine",
+					"latitude": 49.0,
+					"longitude": 32.0,
+					"situation": "War"
+				},
+				"phonenumber": "+341725923"
+			},
+			"suser": {
+				"id": 2,
+				"username": "marraya",
+				"password": "$2a$10$6pBWgEtPi/kMtZ7l4ik6SudQGHyf1.oi0q/5VvKzpgZ32yZ88Iw9q",
+				"email": "mrraynet@gmail.com",
+				"nomApels": "Maria Raices",
+				"role": "editor"
+			},
+			"pendingPay": true,
+			"payed": false
+		}
 	]
 }
