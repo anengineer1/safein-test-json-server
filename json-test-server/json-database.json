@@ -591,5 +591,243 @@
 			"pendingPay": true,
 			"payed": false
 		}
+	],
+	"handles": [
+		{
+			"id": 1,
+			"arrivalDate": "2023-09-14T12:00:00",
+			"departureDate": "2023-09-16T12:00:00",
+			"booking": {
+				"id": 1,
+				"amount": 0,
+				"numPeople": 0,
+				"customers": null,
+				"user": null,
+				"payed": false,
+				"pendingPay": false
+			},
+			"room": {
+				"id": 1,
+				"numPeople": 1,
+				"code": "103",
+				"pricePerNight": 59.99,
+				"internetType": "Fiber",
+				"hasTerrace": true,
+				"hotel": {
+					"id": 1,
+					"name": "Hotel Palace",
+					"phonenumber": "+34555555555",
+					"email": "reboca@gmail.com",
+					"address": "Arbeitzer street 5",
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"securityLevel": "Diplomatic coverage and private security",
+					"energySuficient": true,
+					"city": {
+						"id": 1,
+						"latitude": 37.7749,
+						"longitude": -122.4194,
+						"name": "Kirtze",
+						"country": {
+							"id": 1,
+							"countryCode": "BT",
+							"countryName": "Bhutan",
+							"latitude": 49,
+							"longitude": 32,
+							"situation": "War"
+						}
+					}
+				},
+				"smoker": false
+			}
+		},
+		{
+			"id": 2,
+			"arrivalDate": "2023-06-01T12:00:00",
+			"departureDate": "2023-06-01T12:00:00",
+			"booking": {
+				"id": 2,
+				"amount": 351.12,
+				"numPeople": 1,
+				"customers": {
+					"id": 2,
+					"name": "Robert Capa",
+					"email": "rcopa@gmail.com",
+					"pressMedia": "independiente",
+					"docIdentifier": "DNI",
+					"numIdentifier": "5263744744",
+					"country": {
+						"id": 2,
+						"countryCode": "SO",
+						"countryName": "Somalia",
+						"latitude": 10,
+						"longitude": 49,
+						"situation": "War"
+					},
+					"phonenumber": "+34183564784"
+				},
+				"user": {
+					"id": 2,
+					"username": "AntAn",
+					"password": "AnA#$",
+					"email": "antmannn@gmail.com",
+					"nomApels": "Antonio Andres"
+				},
+				"payed": false,
+				"pendingPay": true
+			},
+			"room": {
+				"id": 1,
+				"numPeople": 1,
+				"code": "103",
+				"pricePerNight": 59.99,
+				"internetType": "Fiber",
+				"hasTerrace": true,
+				"hotel": {
+					"id": 1,
+					"name": "Hotel Palace",
+					"phonenumber": "+34555555555",
+					"email": "reboca@gmail.com",
+					"address": "Arbeitzer street 5",
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"securityLevel": "Diplomatic coverage and private security",
+					"energySuficient": true,
+					"city": {
+						"id": 1,
+						"latitude": 37.7749,
+						"longitude": -122.4194,
+						"name": "Kirtze",
+						"country": {
+							"id": 1,
+							"countryCode": "BT",
+							"countryName": "Bhutan",
+							"latitude": 49,
+							"longitude": 32,
+							"situation": "War"
+						}
+					}
+				},
+				"smoker": false
+			}
+		},
+		{
+			"id": 3,
+			"arrivalDate": "2023-07-18T12:00:00",
+			"departureDate": "2023-07-15T12:00:00",
+			"booking": {
+				"id": 3,
+				"amount": 454.9,
+				"numPeople": 2,
+				"customers": {
+					"id": 3,
+					"name": "Frédéric Leclerc-Imhoff",
+					"email": "freddy@gmail.com",
+					"pressMedia": "BFMTV",
+					"docIdentifier": "DNI",
+					"numIdentifier": "5263374744",
+					"country": {
+						"id": 3,
+						"countryCode": "ID",
+						"countryName": "Indonesia",
+						"latitude": -5,
+						"longitude": 120,
+						"situation": "Natural Disaster"
+					},
+					"phonenumber": "+341445623"
+				},
+				"user": {
+					"id": 3,
+					"username": "NicoGico",
+					"password": "Ni#$Gii",
+					"email": "nicogi@gmail.com",
+					"nomApels": "Nicolas Gimenez"
+				},
+				"payed": true,
+				"pendingPay": false
+			},
+			"room": {
+				"id": 2,
+				"numPeople": 1,
+				"code": "204",
+				"pricePerNight": 59.99,
+				"internetType": "Fiber",
+				"hasTerrace": true,
+				"hotel": {
+					"id": 1,
+					"name": "Hotel Palace",
+					"phonenumber": "+34555555555",
+					"email": "reboca@gmail.com",
+					"address": "Arbeitzer street 5",
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"securityLevel": "Diplomatic coverage and private security",
+					"energySuficient": true,
+					"city": {
+						"id": 1,
+						"latitude": 37.7749,
+						"longitude": -122.4194,
+						"name": "Kirtze",
+						"country": {
+							"id": 1,
+							"countryCode": "BT",
+							"countryName": "Bhutan",
+							"latitude": 49,
+							"longitude": 32,
+							"situation": "War"
+						}
+					}
+				},
+				"smoker": false
+			}
+		},
+		{
+			"id": 4,
+			"arrivalDate": "2023-06-17T12:00:00",
+			"departureDate": "2023-08-14T12:00:00",
+			"booking": {
+				"id": 1,
+				"amount": 0,
+				"numPeople": 0,
+				"customers": null,
+				"user": null,
+				"payed": false,
+				"pendingPay": false
+			},
+			"room": {
+				"id": 3,
+				"numPeople": 3,
+				"code": "302",
+				"pricePerNight": 59.99,
+				"internetType": "Fiber",
+				"hasTerrace": true,
+				"hotel": {
+					"id": 1,
+					"name": "Hotel Palace",
+					"phonenumber": "+34555555555",
+					"email": "reboca@gmail.com",
+					"address": "Arbeitzer street 5",
+					"latitude": 37.7749,
+					"longitude": -122.4194,
+					"securityLevel": "Diplomatic coverage and private security",
+					"energySuficient": true,
+					"city": {
+						"id": 1,
+						"latitude": 37.7749,
+						"longitude": -122.4194,
+						"name": "Kirtze",
+						"country": {
+							"id": 1,
+							"countryCode": "BT",
+							"countryName": "Bhutan",
+							"latitude": 49,
+							"longitude": 32,
+							"situation": "War"
+						}
+					}
+				},
+				"smoker": false
+			}
+		}
 	]
 }

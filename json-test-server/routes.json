@@ -15,5 +15,10 @@
 	"/rooms/inettype/:itype": "/rooms?internetType=:itype",
 	"/rooms/smoke/:smoker": "/rooms?smoker=:smoker",
 	"/rooms/terrace/:terrace": "/rooms?hasTerrace=:terrace",
-	"/rooms/:hotelid/numpers/:numpers": "/rooms?hotel.id=:hotelid&numPeople=:numpers"
+	"/rooms/:hotelid/numpers/:numpers": "/rooms?hotel.id=:hotelid&numPeople=:numpers",
+	"/booking/handles": "/handles",
+	"/booking/handle/:id": "/handles/:id",
+	"/booking/user/:id": "/handles?booking.user.id=:id",
+	"/booking/customer/:id": "/handles?booking.customers.id=:id",
+	"/booking/hotel/:id": "/handles?room.hotel.id=:id"
 }
